@@ -792,7 +792,3 @@ if uploaded_file is not None:
         st.error(f"❌ Error reading CSV file: {str(e)}")
 else:
     st.info("👆 Please upload a CSV file to get started")
-
-# Add footer
-st.markdown("---")
-st.markdown("Made with ❤️ using Streamlit | Franklin County Court Data Fetcher")
